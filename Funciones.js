@@ -150,7 +150,7 @@ function validarNumero(id) {
 		if (sinComas.length > 15) {
 			alert("Excedio la cantidad permitida de dígitos");
 			document.getElementById(id).value = "";
-		} else {
+		}else{
 			if (isNaN(sinComas)) {
 				alert("Ingrese un número válido");
 				document.getElementById(id).value = "";
